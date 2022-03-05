@@ -10,7 +10,7 @@
 
   export default{
     components: {
-      TheNavigation
+      TheNavigation 
     }
   }
 </script>
