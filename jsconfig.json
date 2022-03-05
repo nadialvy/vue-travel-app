@@ -1,0 +1,12 @@
+// this file will make our vscode a lil smarter abt our codebase 
+{
+    "include": [
+        "./src/**/*"
+    ],
+    "compilerOptions": {
+        "baseUrl": ".",
+        "paths": {
+            "@/*" : ["./src/*"]
+        }
+    }
+}
